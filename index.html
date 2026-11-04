@@ -95,7 +95,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
         </div>
       </div>
       <div class="float glass absolute -left-1 bottom-6 flex items-center gap-3 rounded-2xl px-4 py-3 sm:-left-8" data-d="20">
-        <span class="font-display text-2xl font-bold text-brand"><span data-count="10">0</span>+</span>
+        <span class="font-display text-2xl font-bold text-brand"><span data-count="15">0</span>+</span>
         <span class="text-sm leading-tight text-mute">Shopify<br>stores built</span>
       </div>
       <div class="float2 glass absolute -right-1 top-8 rounded-2xl px-4 py-3 text-sm font-semibold sm:-right-8" data-d="30">Liquid · JS · APIs</div>
@@ -145,7 +145,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
 <!-- STORES -->
 <section id="projects" class="mx-auto max-w-6xl px-5 pb-24">
-  <h2 class="rv text-4xl font-bold sm:text-5xl">Shopify stores I’ve built <span class="ml-2 inline-block rounded-full bg-brand px-3 py-1 align-middle text-sm font-semibold text-onbrand">10 live</span></h2>
+  <h2 class="rv text-4xl font-bold sm:text-5xl">Shopify stores I’ve built <span class="ml-2 inline-block rounded-full bg-brand px-3 py-1 align-middle text-sm font-semibold text-onbrand">15+ live</span></h2>
   <p class="rv mt-3 max-w-2xl text-mute">Fashion and retail e-commerce stores with custom Liquid, dynamic product templates, interactive features and optimized performance. Click a card to open the live store.</p>
   <div id="shop" class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
 </section>
@@ -213,7 +213,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   menu.onclick=function(){var h=mn.classList.toggle('hidden');menu.setAttribute('aria-expanded',String(!h))};
   mn.onclick=function(e){if(e.target.tagName==='A'){mn.classList.add('hidden');menu.setAttribute('aria-expanded','false')}};
   // store cards
-  var shop=[['Wery','wery.in','https://wery.in/'],['Dadbites','dadbites.com','https://dadbites.com/'],['Zivaya Jewels','zivayajewels.com','https://zivayajewels.com/'],['Ethan Sports','ethansports.com','https://ethansports.com/'],['Vedriti','vedriti.in','https://www.vedriti.in/'],['Raw','raw.org.in','https://raw.org.in/'],['Rewaz Fabrics','rewazfabrics.com','https://rewazfabrics.com/'],['Solution Herb','solutionherb.com','https://solutionherb.com/'],['Trusfit','trusfit-2.myshopify.com','https://trusfit-2.myshopify.com/'],['Beyeconic','beyeconic.com','https://beyeconic.com/']];
+  var shop=[['Wery','wery.in','https://wery.in/'],['Dadbites','dadbites.com','https://dadbites.com/'],['Zivaya Jewels','zivayajewels.com','https://zivayajewels.com/'],['Ethan Sports','ethansports.com','https://ethansports.com/'],['Vedriti','vedriti.in','https://www.vedriti.in/'],['Raw','raw.org.in','https://raw.org.in/'],['Rewaz Fabrics','rewazfabrics.com','https://rewazfabrics.com/'],['Solution Herb','solutionherb.com','https://solutionherb.com/'],['Trusfit','trusfit-2.myshopify.com','https://trusfit-2.myshopify.com/'],['Beyeconic','beyeconic.com','https://beyeconic.com/'],['Midentity','midentity.in','https://midentity.in/']];;
   var box=document.getElementById('shop');
   shop.forEach(function(p,i){
     var a=document.createElement('a');a.href=p[2];a.target='_blank';a.rel='noopener';a.className='rv spot glass flex items-center gap-4 rounded-2xl p-5';a.style.transitionDelay=(i%3)*0.08+'s';a.style.borderColor='color-mix(in srgb,var(--brand) 45%,transparent)';
